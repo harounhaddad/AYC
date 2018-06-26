@@ -1,0 +1,203 @@
+/* Code is by Haroun Haddad, design and imagination by Haroun Haddad, Onsa Ounaiech, Yassine, Montassar */
+
+* {
+    /*cursor: url('../images/parts/cur/cur.png'), default;	*/
+    
+    
+}
+
+
+
+.overlay {
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+}
+
+.overlay #backgroundVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.nav_bar{
+    
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: 60px;
+    background: #e3e3e3;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.logo_text a:hover {
+    color: #03a9f4;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav_bar nav {
+    text-align: right;
+    padding-right: 10%;
+    padding-top: 1%;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+.nav_bar nav a {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 13px;
+    color: #636463;
+    text-decoration: none;
+    margin-right: 18px;;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav_bar nav a:hover {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    font-size: 13px;
+    color: #03a9f4;
+    text-decoration: none;
+    margin-right: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.social {
+    float: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+.social:hover .social_dropdown {
+    visibility: visible;
+    font-family: 'Raleway', sans-serif;
+}
+
+.social_dropdown {
+    margin-left: -0.4%;
+    visibility: hidden;
+    background: #e3e3e3;
+    width: 42px;
+    height: 130px;
+    position: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+
+.social_dropdown img {
+    height: 16%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: -2px;
+    margin-top: 17px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+#home {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 15%;
+    left: 15%;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#home .social_home img {
+    height: 12%;
+    margin: 8px;
+}
+
+#about {
+    background: #fff;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 30%;
+    left: 15%;
+    opacity: 0.8;
+}
+
+#clubs {
+    background: #fff;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 45%;
+    left: 15%;
+    opacity: 0.8;
+}
+
+#events {
+    background: #fff;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 60%;
+    left: 15%;
+    opacity: 0.8;
+}
+
+#join {
+    background: #fff;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    top: 75%;
+    left: 15%;
+    opacity: 0.8;
+}
+
+#copyright {
+    background: #fff;
+    width: 70%;
+    height: 8%;
+    position: relative;
+    top: 90%;
+    left: 15%;
+    opacity: 0.8;
+    margin-bottom: 51px;
+}
+
+#copyright .text {
+    text-align: left;
+}
+
+#copyright .text p {
+    margin-left: 20px;
+    padding-top: 2%;
+}
+
+#copyright .social_icons {
+    float: right;
+}
+
+#copyright .social_icons img {
+    vertical-align: middle;
+    border-style: none;
+    height: 45%;
+    float: right;
+    padding-right: 17px;
+}
+
